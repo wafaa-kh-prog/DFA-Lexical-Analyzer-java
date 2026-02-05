@@ -13,4 +13,4 @@ It checks if an input string belongs to the language defined by the DFA.
   - The **letter 'c' comes last**  
 - This ensures that **the input follows the correct order and repetition rules** without needing to understand formal logic symbols.
 
-q0 --a--> q1 --a--> q1 --b--> q2 --c--> q3
+
