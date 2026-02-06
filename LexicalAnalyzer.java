@@ -1,4 +1,4 @@
-
+package DFA;
 
 import java.util.Scanner;
 
