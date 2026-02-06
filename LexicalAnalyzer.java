@@ -42,11 +42,14 @@ public class LexicalAnalyzer {
                                     + currentState + " with symbol " + symbol + "'.");
                 System.out.println("Processing stopped.");
                 crashed = true;
+				 break;
                 
             }
         
             currentState = transition_table[currentState][column];
-            System.out.println("Transition successful. Next State:  + currentState + ");
+    
+			System.out.println("Transition successful. Next State: " + currentState);
+
         }
 
         System.out.println("\n_________________________________");
